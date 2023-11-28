@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+/* navbar start */
+#navbar{
+    background-color: #f9f9f9;
+}
+
+#logo{
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+    text-shadow: 0px 1px 1px yellow;
+    margin-bottom: 5px;
+}
+
+#logo span{
+    color: #ffa500;
+}
+
+.navbar-toggler span{
+    color: #ffa500;
+}
+
+.navbar-nav{
+    margin-left: 20px;
+}
+
+.nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 550;
+    color: black;
+    letter-spacing: 1px;
+    transition: 0.1s ease;
+}
+
+.nav-item .nav-link:hover{
+    background-color: #ffa500;
+    color: white;
+}
+
+#navbar form button{
+background-color: #ffa500;
+color: white;
+border: none;
+}
+/* navbar end */
