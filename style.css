@@ -161,6 +161,7 @@ border: none;
 }
 
 .main-text h1{
+    margin-top: 10px;
     text-align: center;
     box-shadow: 0px 1px 1px black;
     font-weight:600;
@@ -208,7 +209,7 @@ border: none;
 }
 
 .book .submit:hover{
-    width: 170px|;
+    width: 170px;
 }
 
 @media(max-width:765px){
@@ -221,3 +222,56 @@ border: none;
     }
 }
 /* book section end */
+
+/* package section start */
+.main-txt{
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 600;
+    text-shadow: 0 1px 1px black;
+}
+
+.main-txt h1 span{
+    color: #ffa500;
+    
+}
+
+.package .card{
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 1px 1px rgba(0,0,0,0) 0px 4px 12px;
+}
+
+.package .card img{
+    border-radius: 5px;
+}
+
+.package .card .card-body{
+    background: transparent;
+}
+
+.package .card .card-body h3{
+    font-size: 25px;
+    font-weight: 600 ;
+}
+
+.package .card-body p{
+    font-size: 15px;
+}
+
+.checked{
+    color: #ffa500;
+}
+
+.package .card .card-body h6{
+    font-size: 20px;
+}
+
+.package .card .card-body a{
+    padding: 10px;
+    text-decoration: none;
+    background-color: #ffa500;
+    color: white;
+    border-radius: 5px;
+}
+/* package section end */
