@@ -334,17 +334,17 @@ border: none;
 
 .about .card{
     border-radius: 10px;
-    
 }
 
 .about .card img{
     border-radius: 20px;
 }
 
-.about h2{
+.about h3{
+    /* margin-top: 15px; */
     font-weight: 600;
     letter-spacing: 1px;
-    padding: 50px;
+    padding: 40px;
 }
 
 .about p{
@@ -379,3 +379,50 @@ border: none;
     }
 }
 /* about end */
+
+/* footer section start */
+#footer{
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+    background: #f9f9f9;
+}
+
+#footer h1{
+    font-weight: 600;
+    padding-top: 50px;
+    text-shadow: 0 1px 1px black;
+}
+
+#footer h1 span{
+    color: #ffa500;
+}
+
+#footer .social-links i{
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    background: black;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+
+#footer .social-links i:hover{
+    background: #ffa500;
+    
+}
+
+.footer .credits p a{
+    text-decoration: none;
+}
+
+.footer .credits p a:hover{
+    color: #ffa500;
+}
+
+
+/* footer section end */
