@@ -29,6 +29,8 @@
 
 .navbar-toggler span{
     color: #ffa500;
+    /* scroll-behavior: ; */
+    
 }
 
 .navbar-nav{
@@ -49,11 +51,22 @@
     color: white;
 }
 
-#navbar form button{
-background-color: #ffa500;
+.btn-nav{
+background-color:#ffa500;
 color: white;
 border: none;
+border-radius: 5px;
+text-align: center;
+font-weight: bold;
 }
+
+.btn-nav:hover{
+    background-color: #fac054;
+    transition: 0.4ms ease;
+    color: black;
+}
+
+
 /* navbar end */
 
 
@@ -163,7 +176,7 @@ border: none;
 .main-text h1{
     margin-top: 10px;
     text-align: center;
-    box-shadow: 0px 1px 1px black;
+    /* box-shadow: 0px 1px 1px black; */
     font-weight:600;
 }
 
@@ -171,8 +184,8 @@ border: none;
     color: #ffa500;
 }
 
-.book .card{
-    border-radius: 15px;
+.book .card img{
+    border-radius: 5px;
     box-shadow: 0px 5px 5px -6px black;
 }
 
@@ -181,13 +194,15 @@ border: none;
 }
 
 .book form input{
-    padding: 10px;
+    padding-top: 10px;
     color: black;
     border: none;
     outline: none;
     border-radius: 10px;
     font-size: 15px;
     box-shadow: 0px 5px 5px -6px black;
+    margin: 10px;
+    
 }
 
 .book form textarea{
@@ -195,7 +210,7 @@ border: none;
     border-radius: 10px;
     resize: none;
     box-shadow: 0 5px 5px -6px black;
-    height: 200px;
+    height: 100px;
 }
 
 .book .submit{
@@ -206,6 +221,10 @@ border: none;
     color: white;
     margin-top: 10px;
     transition: 0.5s;
+    border: none;
+    box-sizing: 35px;
+    border-radius: 4px;
+    
 }
 
 .book .submit:hover{
@@ -220,6 +239,7 @@ border: none;
     .main-text h1{
         padding: 20px;
     }
+
 }
 /* book section end */
 
